@@ -1,0 +1,12 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #0f1923;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.App{
+  padding-inline: 50px;
+}
