@@ -54,7 +54,6 @@
   color: transparent;
 }
 
-/* Responsividade */
 @media (max-width: 900px) {
   .text-input {
     width: calc(100vw - 180px);
