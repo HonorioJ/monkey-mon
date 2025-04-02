@@ -70,6 +70,7 @@
 .info-types > :nth-child(1){
   display: flex;
   margin-top: 10px;
+  gap: 10px
 }
 
 .info-button{
