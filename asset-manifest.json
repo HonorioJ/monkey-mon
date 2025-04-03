@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/monkey-mon/static/css/main.1ab3e4c5.css",
+    "main.css": "/monkey-mon/static/css/main.2c57fd5e.css",
     "main.js": "/monkey-mon/static/js/main.4c952407.js",
     "static/media/banner.png": "/monkey-mon/static/media/banner.439ef7bc82beb5210725.png",
     "static/media/lapras.png": "/monkey-mon/static/media/lapras.c8d43974c44d9a2b0c17.png",
@@ -24,11 +24,11 @@
     "static/media/electric.svg": "/monkey-mon/static/media/electric.b7c96c6a95c5717293f9293bf6dc9f14.svg",
     "static/media/grass.svg": "/monkey-mon/static/media/grass.ac726269001b6931492a0c8a077c2834.svg",
     "static/media/normal.svg": "/monkey-mon/static/media/normal.383ef507a3a905727043a0161873e006.svg",
-    "main.1ab3e4c5.css.map": "/monkey-mon/static/css/main.1ab3e4c5.css.map",
+    "main.2c57fd5e.css.map": "/monkey-mon/static/css/main.2c57fd5e.css.map",
     "main.4c952407.js.map": "/monkey-mon/static/js/main.4c952407.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ab3e4c5.css",
+    "static/css/main.2c57fd5e.css",
     "static/js/main.4c952407.js"
   ]
 }
