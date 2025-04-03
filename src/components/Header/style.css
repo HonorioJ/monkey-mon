@@ -22,6 +22,7 @@
   position: relative;
   display: inline-block;
   animation: fadeIn 1s ease-out, pulse 3s infinite alternate;
+  justify-content: center;
 }
 
 .logo::after {
@@ -60,13 +61,13 @@
   text-decoration: none;
   font-size: 30px;
   display: inline-block;
+  letter-spacing: 1.5px;
   margin-top: 15px;
   font-size: 42px;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
   transform: translateY(0);
   opacity: 0.7;
-  transition: opacity 0.5s ease-in-out;
 }
 
 .team-header::after {
@@ -103,19 +104,28 @@
   }
 }
 
+@media (min-width: 1205px){
+  .container-header {
+    min-width: 1105px;
+  }
+}
+
 @media (max-width: 768px) {
   .container-header {
     padding: 15px 20px;
   }
 
   .logo {
-    font-size: 36px;
+    font-size: 5vw;
   }
-}
 
-@media (max-width: 480px) {
-  .logo {
-    font-size: 32px;
-    animation: fadeIn 1s ease-out, pulse 4s infinite alternate;
+  .team-header {
+    font-size: 5vw;
+    margin-top: 5px;
+  }
+
+  .svg-logo-container {
+    height: 6vw;
+    width: 6vw;
   }
 }
