@@ -24,8 +24,7 @@ function Card(props) {
     <>
       {isLoad? (
         <div className={`card-container ${pokemon.types?.[0].type.name}`}>
-          <img src={pokemon.sprites?.other['official-artwork'].front_default} className='card-img' onLoad={setImgLoad}></img>
-          {imgLoad? null : <FaQuestion className='no-image-icon'/>}
+          {pokemon.sprites?.other['official-artwork'].front_default ? <img src={pokemon.sprites?.other['official-artwork'].front_default} className='card-img' onLoad={setImgLoad}/> : <FaQuestion className='no-image-icon'/>}
           <div className='card-name'>{pokemon.name?.toString().charAt(0).toUpperCase() + pokemon.name?.toString().slice(1)}</div>
           <div className='card-id-type'>
             <div>N° {pokemon.id?.toString().padStart(5, '0')}</div>

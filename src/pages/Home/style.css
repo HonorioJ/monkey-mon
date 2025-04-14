@@ -29,8 +29,9 @@
   width: 1105px;
   justify-content: space-between;
   align-items: center;
-  margin-top: 41px;
+  margin-top: 51px;
   margin-bottom: 41px;
+  animation: fadeIn 1s ease-in-out;
 }
 
 .button-load-more{

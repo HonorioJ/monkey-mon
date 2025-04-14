@@ -1,8 +1,16 @@
 .evolution-container {
-  background-color: #182533;
+  background-color: #1e2b39;
   margin-top: 30px;
   border-radius: 10px;
   padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform ease 0.2s
+}
+
+.evolution-container:hover {
+  transform: scale(1.02);
 }
 
 .evolution-container h1 {
@@ -15,7 +23,7 @@
 .evolution-container h2 {
   margin: 0;
   font-weight: lighter;
-  font-size: 20px;
+  font-size: 18px;
   color: #CEE0F1;
 }
 
@@ -47,18 +55,18 @@
 .blue-circle {
   width: 150px;
   height: 150px;
-  background-color: #3F7ACC;
+  background: radial-gradient(circle at 30% 30%, #3f7acc, #295dad);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: transform 0.4s ease, box-shadow 0.4s ease;
-  position: relative;
+  box-shadow: 0 4px 12px rgba(63, 122, 204, 0.3);
 }
 
 .blue-circle:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 20px rgba(63, 122, 204, 0.671);
+  box-shadow: 0px 0px 30px rgba(63, 122, 204, 0.8);
   cursor: pointer;
 }
 
@@ -67,8 +75,8 @@
 }
 
 .blue-circle img {
-  width: 180px;
-  height: 180px;
+  width: 130px;
+  height: 130px;
   transition: transform 0.4s ease;
 }
 
@@ -87,11 +95,11 @@
 }
 
 .arrow-right {
-  color: #CEE0F1;
-  font-size: 50px;
+  color: #ffffffbb;
+  font-size: 80px;
   margin-inline: 50px;
-  transform: translateY(-25px);
-  font-size: 60px;
+  transform: translateY(-30px);
+  transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .evolution-group {

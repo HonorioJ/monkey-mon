@@ -1,6 +1,8 @@
 .team-container {
   text-align: center;
   padding-block: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 .team-title {
@@ -14,7 +16,7 @@
   list-style: none;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 0fr));
   gap: 20px;
   max-width: 1300px;
   margin: auto;
@@ -29,6 +31,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  max-width: 267px;
 }
 
 .team-item:hover {
@@ -42,6 +45,16 @@
 }
 
 .team-item:hover img {
+  transform: rotate(5deg) scale(1.1);
+}
+
+.team-unknown-icon {
+  font-size: 60px;
+  padding-block: 30px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-item:hover .team-unknown-icon{
   transform: rotate(5deg) scale(1.1);
 }
 

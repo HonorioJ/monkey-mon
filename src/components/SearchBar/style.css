@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  border: 2px solid transparent;
+  border: 1px solid #334155;
   transition: all 0.3s ease-in-out;
   background-color: #112130;
   overflow: hidden;

@@ -1,10 +1,33 @@
-body{
-  padding: 0;
+body {
   margin: 0;
-  background-color: #0f1923;
+  padding: 0;
+  background: radial-gradient(circle at top, #091620, #0d1f2e);
+  overflow-x: hidden;
+  min-height: 100vh;
+  position: relative;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+}
+
+body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(
+    45deg,
+    rgba(255, 255, 255, 0.02) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.02) 50%,
+    rgba(255, 255, 255, 0.02) 75%,
+    transparent 75%
+  );
+  background-size: 40px 40px;
+  z-index: -1;
+
 }
 
 .App{

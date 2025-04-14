@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
+import { AiOutlineQuestion } from "react-icons/ai";
 
 function Team() {
   const [pokemons, setPokemons] = useState([]);
@@ -24,7 +25,7 @@ function Team() {
       <ul className="team-list">
         {pokemons.map((item, index) => (
           <li key={index} className="team-item">
-            <img src={item.sprites?.front_default}/>
+            {item.sprites?.front_default ? <img src={item.sprites?.front_default}/> : <AiOutlineQuestion className='team-unknown-icon'/>}
             <span className="team-name">{item.name.charAt(0).toUpperCase() + item.name.slice(1)}</span>
             <Link 
               to={`/pokemon/${item.name}`} 
