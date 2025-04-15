@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/monkey-mon/static/css/main.eb3152f6.css",
+    "main.css": "/monkey-mon/static/css/main.9911af9a.css",
     "main.js": "/monkey-mon/static/js/main.6eafe612.js",
     "static/media/banner.png": "/monkey-mon/static/media/banner.439ef7bc82beb5210725.png",
     "static/media/lapras.png": "/monkey-mon/static/media/lapras.c8d43974c44d9a2b0c17.png",
@@ -24,11 +24,11 @@
     "static/media/electric.svg": "/monkey-mon/static/media/electric.b7c96c6a95c5717293f9293bf6dc9f14.svg",
     "static/media/grass.svg": "/monkey-mon/static/media/grass.ac726269001b6931492a0c8a077c2834.svg",
     "static/media/normal.svg": "/monkey-mon/static/media/normal.383ef507a3a905727043a0161873e006.svg",
-    "main.eb3152f6.css.map": "/monkey-mon/static/css/main.eb3152f6.css.map",
+    "main.9911af9a.css.map": "/monkey-mon/static/css/main.9911af9a.css.map",
     "main.6eafe612.js.map": "/monkey-mon/static/js/main.6eafe612.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb3152f6.css",
+    "static/css/main.9911af9a.css",
     "static/js/main.6eafe612.js"
   ]
 }
