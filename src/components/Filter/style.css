@@ -154,3 +154,9 @@
     transform: rotate(0deg)
   }
 }
+
+@media (max-width: 900px) {
+  .filter-container{
+    margin-top: 40px;
+  }
+}

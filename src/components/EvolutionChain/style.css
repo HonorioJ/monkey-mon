@@ -6,7 +6,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: transform ease 0.2s
+  transition: transform ease 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  max-width: 1107px;
+  box-sizing: border-box;
 }
 
 .evolution-container:hover {
@@ -17,14 +21,14 @@
   margin: 0;
   font-weight: bold;
   font-size: 30px;
-  color: #CEE0F1;
+  color: #fff;
 }
 
 .evolution-container h2 {
   margin: 0;
   font-weight: lighter;
   font-size: 18px;
-  color: #CEE0F1;
+  color: #fff;
 }
 
 .chain-container {
@@ -35,10 +39,16 @@
   margin-bottom: 40px;
 }
 
+.chain-container>:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  max-width: 660px;
+}
+
 .evolution-stage {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .pokemon-chain {
@@ -82,7 +92,7 @@
 
 .chain-name {
   font-size: 20px;
-  color: #CEE0F1;
+  color: #fff;
   margin-top: 8px;
   font-weight: bold;
 }
@@ -107,6 +117,12 @@
   align-items: center;
   justify-content: center;
   gap: 40px;
+}
+
+@media (max-width: 1205px ) and (min-width: 901px) {
+  .evolution-container{
+
+  }
 }
 
 @media (max-width: 900px) {
