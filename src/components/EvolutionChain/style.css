@@ -120,12 +120,6 @@
   gap: 40px;
 }
 
-@media (max-width: 1205px ) and (min-width: 901px) {
-  .evolution-container{
-
-  }
-}
-
 @media (max-width: 900px) {
   .evolution-container{
     width: (100vw - 100px);
