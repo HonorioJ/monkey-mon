@@ -8,7 +8,6 @@ import { AiOutlineQuestion } from "react-icons/ai";
 function Card(props) {
 
   const [isLoad, setIsLoad] = useState(false)
-  const [imgLoad, setImgLoad] = useState(false)
 
   const [pokemon, setPokemon] = useState([])
   useEffect(() => {
@@ -24,7 +23,11 @@ function Card(props) {
     <>
       {isLoad? (
         <div className={`card-container ${pokemon.types?.[0].type.name}`}>
-          {pokemon.sprites?.other['official-artwork'].front_default ? <img src={pokemon.sprites?.other['official-artwork'].front_default} className='card-img' onLoad={setImgLoad}/> : <AiOutlineQuestion className='no-image-icon'/>}
+          {pokemon.sprites?.other['official-artwork'].front_default ?
+            <img src={pokemon.sprites?.other['official-artwork'].front_default} className='card-img'/>
+            :
+            <AiOutlineQuestion className='no-image-icon'/>
+          }
           <div className='card-name'>{pokemon.name?.toString().charAt(0).toUpperCase() + pokemon.name?.toString().slice(1)}</div>
           <div className='card-id-type'>
             <div>N° {pokemon.id?.toString().padStart(5, '0')}</div>

@@ -24,9 +24,14 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   font-size: 18px;
-  white-space: nowrap;
   color: #d3e0ec;
   transition: transform 0.3s ease, letter-spacing 0.3s ease;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .card-container:hover .card-name {
@@ -204,6 +209,7 @@
   .card-container {
     width: 24vw;
     height: 24vw;
+    border-radius: 2vw;
   }
 
   .card-img {
@@ -211,7 +217,7 @@
   }
 
   .card-name {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .card-id-type>:nth-child(1){
@@ -220,5 +226,10 @@
 
   .card-id-type img {
     max-width: 10px;
+  }
+
+  .no-image-icon {
+    font-size: 10vw;
+    margin: 0;
   }
 }
