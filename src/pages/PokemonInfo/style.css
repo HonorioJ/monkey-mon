@@ -36,8 +36,11 @@
   flex-direction: column;
 }
 
-.info-first-container img{
+.info-first-container img,
+.no-image-info{
   width: 350px;
+  font-size: 250px;
+  color: #ffffffbb;
 }
 
 .info-name{

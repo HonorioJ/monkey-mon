@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import './style.css';
 import { AiOutlineQuestion } from "react-icons/ai";
+import { toast } from "react-toastify";
 
 function Team() {
   const [pokemons, setPokemons] = useState([]);
@@ -15,7 +16,10 @@ function Team() {
     const updateList = pokemons.filter(p => p.name !== pokemonName);
     if (updateList.length !== pokemons.length) {
       setPokemons(updateList);
-      localStorage.setItem("@pokemon", JSON.stringify(updateList))
+      localStorage.setItem("@pokemon", JSON.stringify(updateList));
+      toast.success(`${pokemonName.charAt(0).toUpperCase() + pokemonName.slice(1)} successfully removed!`,{
+        className: "custom-toast",
+      })
     }
   }
 

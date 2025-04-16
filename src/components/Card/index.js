@@ -3,7 +3,7 @@ import api from '../../services/Api';
 import './style.css';
 import TypeIcon from '../TypeIcon';
 import { AiOutlineLoading } from "react-icons/ai";
-import { FaQuestion } from "react-icons/fa";
+import { AiOutlineQuestion } from "react-icons/ai";
 
 function Card(props) {
 
@@ -24,7 +24,7 @@ function Card(props) {
     <>
       {isLoad? (
         <div className={`card-container ${pokemon.types?.[0].type.name}`}>
-          {pokemon.sprites?.other['official-artwork'].front_default ? <img src={pokemon.sprites?.other['official-artwork'].front_default} className='card-img' onLoad={setImgLoad}/> : <FaQuestion className='no-image-icon'/>}
+          {pokemon.sprites?.other['official-artwork'].front_default ? <img src={pokemon.sprites?.other['official-artwork'].front_default} className='card-img' onLoad={setImgLoad}/> : <AiOutlineQuestion className='no-image-icon'/>}
           <div className='card-name'>{pokemon.name?.toString().charAt(0).toUpperCase() + pokemon.name?.toString().slice(1)}</div>
           <div className='card-id-type'>
             <div>N° {pokemon.id?.toString().padStart(5, '0')}</div>

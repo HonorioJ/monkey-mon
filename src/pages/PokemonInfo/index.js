@@ -4,6 +4,7 @@ import api from "../../services/Api";
 import "./style.css";
 import EvolutionChain from "../../components/EvolutionChain";
 import { toast } from "react-toastify";
+import { AiOutlineQuestion } from "react-icons/ai";
 
 function PokemonInfo() {
   const { name } = useParams();
@@ -49,7 +50,7 @@ function PokemonInfo() {
     } else {
       savedPokemons.push(pokemon);
       localStorage.setItem("@pokemon", JSON.stringify(savedPokemons));
-      toast.success("Pokemon successul added!",{
+      toast.success("Pokemon successfully added!",{
         className: "custom-toast",
       });
     }
@@ -60,10 +61,14 @@ function PokemonInfo() {
       <div className="info-container">
         <div className="info-first-container">
           <div>
+            {pokemon.sprites?.other["official-artwork"].front_default ?
             <img
               src={pokemon.sprites?.other["official-artwork"].front_default}
               alt={pokemon.name}
             />
+            :
+            <AiOutlineQuestion className="no-image-info"/>
+            }
           </div>
           <div>
             <h1 className="info-name">
