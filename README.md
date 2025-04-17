@@ -46,6 +46,6 @@ Acesse o site ao vivo: [https://honorioj.github.io/monkey-mon/#/](https://honori
 
 ## 📄 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto é de uso livre para fins pessoais e educacionais. Você pode modificar, reutilizar e distribuir o código, desde que os devidos créditos sejam atribuídos.
 
-Este projeto utiliza a [PokéAPI](https://pokeapi.co/), que está licenciada sob a [Licença BSD 3-Clause](https://github.com/PokeAPI/pokeapi/blob/master/LICENSE.md).
+Este projeto também utiliza a [PokéAPI](https://pokeapi.co/), que está licenciada sob a [Licença BSD 3-Clause](https://github.com/PokeAPI/pokeapi/blob/master/LICENSE.md).
