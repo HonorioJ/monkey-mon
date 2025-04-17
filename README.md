@@ -21,7 +21,7 @@ Acesse o site ao vivo: [https://honorioj.github.io/monkey-mon/#/](https://honori
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seuusuario/monkey-mon.git
+   git clone https://github.com/HonorioJ/monkey-mon.git
    ```
 
 2. Navegue até o diretório do projeto:
