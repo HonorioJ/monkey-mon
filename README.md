@@ -1,6 +1,6 @@
 # 🐒 MonkeyMon
 
-[MonkeyMon](https://honorioj.github.io/monkey-mon/#/) é uma interface interativa que lhe permite buscar Pokémons através de uma barra de pesquisa, aplicar filtros, vizualizar detalhes completos sobre cada um e organizar seus favoritos em uma aba dedicada à formação do seu time. A aplicação utiliza cache local para manter suas escolhas salvas entre sessões.
+[MonkeyMon](https://honorioj.github.io/monkey-mon/#/) é uma interface web interativa que permite buscar Pokémons por meio de uma barra de pesquisa e filtros personalizados. É possível visualizar informações detalhadas de cada criatura e organizar seus favoritos em uma aba dedicada à montagem do seu time. A aplicação utiliza cache local para manter suas escolhas salvas.
 
 ## 🌐 Demonstração
 
