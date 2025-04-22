@@ -10,7 +10,6 @@ Acesse o site ao vivo: [https://honorioj.github.io/monkey-mon/#/](https://honori
 
 - React
 - JavaScript
-- Sass
 - Axios
 - React Router DOM
 - React Toastify
